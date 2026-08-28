@@ -27,7 +27,7 @@ static float s_brightnessFade = 2.5f / 60;
 static bool s_drew;
 static u32 s_lastFrame;
 
-#define CLEAR_COLOR 0x68B0D8FF
+#define CLEAR_COLOR 0x0F0F0FFF
 
 #define DISPLAY_TRANSFER_FLAGS \
 	(GX_TRANSFER_FLIP_VERT(0) | GX_TRANSFER_OUT_TILED(0) | GX_TRANSFER_RAW_COPY(0) | \
