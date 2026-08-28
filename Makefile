@@ -42,9 +42,10 @@ GRAPHICS	:=	gfx
 ROMFS		:=	romfs
 GFXBUILD	:=	$(ROMFS)/gfx
 
-APP_TITLE		:=	Homebrew Menu $(VERSTRING)
-APP_DESCRIPTION	:=	Nintendo 3DS Homebrew Launcher
-APP_AUTHOR		:=	hbmenu team
+APP_TITLE       := The DarkFox Launcher
+APP_DESCRIPTION := DarkFox Co. Homebrew Launcher
+APP_AUTHOR       := DarkFox Co.
+APP_ICON        := $(TOPDIR)/icon.png
 
 #---------------------------------------------------------------------------------
 # options for code generation
