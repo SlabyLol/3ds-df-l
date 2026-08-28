@@ -34,7 +34,7 @@ jobs:
     - name: Build
       run: make -j$(nproc --all)
     - name: Publish boot.3dsx (only on manual run or release)
-      if: github.event_name == 'workflow_dispatch' || github.event_name == 'release'
+      if: github.event_name == 'workflow_dispatch' || github.event_name == 'release' || github.event_name == 'workflow_call'
       uses: actions/upload-artifact@v4
       with:
         # This produces a zip with boot.3dsx inside for security reasons
