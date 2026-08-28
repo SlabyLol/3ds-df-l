@@ -4,7 +4,6 @@ build/
 *.t3x
 *.3dsx
 *.smdh
-*.love
 *.exe
 *.elf
 *~
